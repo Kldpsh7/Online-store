@@ -17,7 +17,7 @@ main {
 
 .main-header {
   width: 100%;
-  height: 3.5rem;
+  height: 4.5rem;
   background-color: #00695c;
   padding: 0 1.5rem;
 }
@@ -60,6 +60,7 @@ main {
 
 .card {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 1rem;
 }
 
 .card__header,
@@ -105,4 +106,18 @@ main {
 .btn:active {
   background-color: #00695c;
   color: white;
+}
+
+.name-logo h1,
+.name-logo img{
+  padding: 1rem;
+  margin: 0;
+}
+
+.name-logo{
+  float: right;
+  color: #ce7535;
+  display: flex;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
